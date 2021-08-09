@@ -1,0 +1,81 @@
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #073161;
+}
+
+.btn.blue {
+    background-color: #1b9bc2;
+    color: #fff;
+}
+
+.btn {
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.yo-include-container {
+    width: 1200px;
+    margin: 40px auto 0;
+    color: #fff;
+}
+
+.yo-include-container h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.yo-include-container .owl-dots{
+    position: relative;
+    top: -30px;
+    right: 55px;
+}
+
+.yo-include-container .owl-dots .owl-dot{
+    outline: none;
+}
+
+.yo-include .item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 60px;
+}
+
+.yo-include .item h3{
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.yo-include .item .right{
+    padding-bottom: 80px;
+}
+
+.yo-include .item .right .image{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.yo-include .item .right .image .user-photo{
+    border-radius: 100%;
+}
+.yo-include .item .right .image .text{
+    font-style: italic;
+}

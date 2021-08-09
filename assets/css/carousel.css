@@ -1,0 +1,166 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html .uk-navbar-container {
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 20px;
+  background: rgba(0, 0, 0, 0.35) !important;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .uk-navbar-container .logo img {
+  width: auto;
+  height: 30px;
+}
+
+html .uk-navbar-container .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .uk-navbar-container .navbar-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .uk-navbar-container .navbar-nav ul li {
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  margin-left: 2rem;
+}
+
+html .uk-navbar-container .navbar-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+html .uk-navbar-container .navbar-nav ul li a:hover {
+  color: #000;
+}
+
+html .uk-navbar-container .dis-none {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  html .uk-navbar-container {
+    letter-spacing: 3px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.35) !important;
+  }
+  html .uk-navbar-container .logo {
+    position: absolute;
+    left: 30px;
+  }
+  html .uk-navbar-container .logo img {
+    width: auto;
+    height: 30px;
+  }
+  html .uk-navbar-container .navbar-nav {
+    position: absolute;
+    left: 0;
+    margin-top: 280px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    display: block;
+  }
+  html .uk-navbar-container .navbar-nav ul {
+    display: block;
+    padding-bottom: 10px;
+  }
+  html .uk-navbar-container .navbar-nav ul li {
+    list-style: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    margin-left: 2rem;
+    width: 90%;
+    border-bottom: 1px #fff solid;
+  }
+  html .uk-navbar-container .navbar-nav ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  html .uk-navbar-container .navbar-nav ul li a:hover {
+    color: #000;
+  }
+  html .uk-navbar-container .dis-none {
+    display: none;
+  }
+  html .uk-navbar-container .dis-none i {
+    top: -20px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html .uk-navbar-container {
+    top: 0px;
+    background: rgba(0, 0, 0, 0.35) !important;
+    vertical-align: middle;
+  }
+  html .uk-navbar-container .logo {
+    position: absolute;
+    left: 30px;
+  }
+  html .uk-navbar-container .logo img {
+    width: auto;
+    height: 25px;
+  }
+  html .uk-navbar-container .navbar-nav {
+    position: absolute;
+    left: 0;
+    margin-top: 280px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+  }
+  html .uk-navbar-container .navbar-nav ul {
+    display: block;
+    padding-bottom: 10px;
+  }
+  html .uk-navbar-container .navbar-nav ul li {
+    list-style: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    margin-left: 1rem;
+    width: 90%;
+    border-bottom: 1px #fff solid;
+  }
+  html .uk-navbar-container .navbar-nav ul li a {
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+  }
+  html .uk-navbar-container .navbar-nav ul li a:hover {
+    color: #000;
+  }
+}
+/*# sourceMappingURL=carousel.css.map */
