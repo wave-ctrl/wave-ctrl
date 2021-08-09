@@ -817,7 +817,7 @@ html #footer .footer-bottom {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-device-width: 767px) {
   html .uk-navbar-container {
     letter-spacing: 3px;
     margin-top: -80px;
